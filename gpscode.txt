@@ -2,7 +2,7 @@
 #include <WebServer.h>
 #include <HTTPClient.h>
 
-const char* ssid = "Chandran";
+const char* ssid = "";
 const char* password = "";  
 const char* HERE_API_KEY = "LAQLQFn5BFJpTTXeZ-z05aVl2FPKS5EovfSaK8utl4U";
 
@@ -133,4 +133,5 @@ void loop() {
         lastUpdate = millis();
     }
 }
+
 
